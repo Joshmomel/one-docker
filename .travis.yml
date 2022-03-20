@@ -13,10 +13,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: 'ap-southeast-2'
-  app: 'onedocker'
+  app: 'one-docker'
   env: 'Onedocker-env'
   bucket_name: 'elasticbeanstalk-ap-southeast-2-556626682504'
-  bucket_path: 'onedocker'
+  bucket_path: 'one-docker'
   on:
     branch: main
   access_key_id: $AWS_ACCESS_KEY
